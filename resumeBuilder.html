@@ -68,36 +68,70 @@
     <div class="col-main">
       <header>
         <h1>
-          <a href="index.html">JobQuestAI</a>
+          <a href="./index.html">JobQuestAI</a>
         </h1>
       </header>
       <main class="content">
         <article>
-          <div style="text-align: left;">
-            <img src="JobQuestAI.png" alt="" id="jobquestai" />
+          <h2>Resume Builder</h2>
+          <div class="card">
+            I am a tech lead working in the software industry for the last ten
+            years. I am proficient in Python 3.0 and TypeScript 5.4 . I have
+            used MySQL and MongoDB in the past.
+            <br>
+            <br>
+            &nbsp;
+            <button id="build" class="btn btn-primary">Build Resume</button>
           </div>
-          <br>
-          <br>
-          <br>
-          <h3>Welcome to JobQuest.AI: Streamlining Your Job Search</h3>
           <p>
-            JobQuest.AI simplifies job searching for candidates and hiring for
-            recruiters by matching resumes to relevant job openings.
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="67" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar" style="width: 67%">Building Resume Profile</div>
+            </div>
           </p>
-          <p><strong>Why JobQuest.AI?</strong></p>
-          <p>
-            Unlike traditional platforms, JobQuest.AI utilizes advanced AI to
-            rank candidates for job profiles, making job matching accurate and
-            timely.
-          </p>
-          <p>
-            <strong>Job Seekers:</strong> Enjoy a streamlined job search by uploading resumes and
-            setting preferences.
-          </p>
-          <p>
-            <strong>Recruiters:</strong> Benefit from a simplified, AI-enhanced job posting
-            experience connecting you to suitable candidates swiftly.
-          </p>
+          <div>
+            <textarea name="resumeBuilder" id="resumeBuilder" cols="88" rows="30">
+                Summary:
+                Experienced Tech Lead with a 10-year track record in the
+                software industry, proficient in leading teams and projects, and
+                expert in Python 3.0, TypeScript 5.4, MySQL, and MongoDB.
+
+                Professional Experience:
+                Tech Lead | CompCo | Loc, TX | 2018 - Present
+
+                Led a team of 5 developers, fostering a collaborative environment
+                that encouraged innovation and the meeting of all project deadlines.
+                Developed, tested, and deployed three high-impact projects using
+                Python 3.0 and TypeScript 5.4, ensuring optimal performance and user
+                satisfaction. Conducted code reviews and provided mentorship,
+                enhancing team coding skills and project outcomes. Interfaced with
+                cross-functional teams and stakeholders to define requirements,
+                ensuring successful project delivery.
+
+                Lead | PrevCo. | Otro, TX | 2015 - 2018
+
+                Led a team of 8 developers, fostering a collaborative environment
+
+                Education:
+                Master's in Computer Science | UTDallas | Dallas, TX | 2015
+
+                Skills
+
+                Programming: Python 3.0, TypeScript 5.4 Databases: MySQL, MongoDB
+
+                Certifications
+                Java Certification | Oracle | 2015
+
+                Professional Associations
+                Member | IEEE | 2015 - Present
+                
+                References:
+                Available upon request
+                </textarea>
+                <br>
+                <br>
+                <button class="btn btn-primary" onclick="location.href = 'resumeMatches.html';" >Get Matches</button>
+          </div>
         </article>
       </main>
     </div>
